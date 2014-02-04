@@ -1,3 +1,5 @@
+require 'my_hook_listener'
+
 Redmine::Plugin.register :my do
   name 'My plugin'
   author 'Alexander K'
