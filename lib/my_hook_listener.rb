@@ -3,7 +3,7 @@ class MyHookListener < Redmine::Hook::ViewListener
     # not perfect ya know...
 
     id = context[:issue].id
-    "<a class='icon icon-attachment' href='#{id}/hey'>Download All</a>"
+    "<p><a class='icon icon-attachment' href='#{id}/hey'>Download All</a></p>"
 
     #link_to 'Download All',
     #  controller: :my, action: :get_em,
